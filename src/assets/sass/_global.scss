@@ -1,0 +1,33 @@
+body {
+  font-family: 'Futura New';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: #000;
+  background-color: #f5f9fe;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas: "head" "orders" "complete";
+  min-height: 100vh
+}
+.header {
+  grid-area: head;
+}
+.orders {
+  grid-area: orders;
+}
+.complete-orders {
+  grid-area: complete;
+}
+.ninja-logo {
+  opacity: 0.6;
+}

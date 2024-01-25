@@ -1,0 +1,110 @@
+.categorie__stop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categorie__control {
+  margin-top: 20px;
+}
+
+.categorie__name {
+  // position: absolute;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.categorie__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.categorie__card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 14px 8px;
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #e5e5e5;
+  min-width: 90%;
+}
+.categorie__items {
+  margin-bottom: 20px;
+}
+.card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__name {
+  max-width: 144px;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.card__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__options {
+  border-top: 1px dashed #e5e5e5;
+  margin-top: 8px;
+}
+.options__title {
+  border: 0;
+  font-size: 12px;
+  line-height: 1.1;
+  color: #19647e;
+  background-color: transparent;
+  cursor: pointer;
+}
+.card__option-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed #e5e5e5;
+  margin-top: 8px;
+  padding: 8px 0;
+}
+.option__name {
+  font-size: 12px;
+  color: #19647e;
+  max-width: 70%;
+}
+.card__option-item--inactive > .option__name {
+  opacity: 0.4;
+}
+.card__option-item--inactive > .card__information > .card__price {
+  opacity: 0.4;
+}
+.categorie__card--inactive > .card__container > .card__name,
+.categorie__card--inactive > .card__container > .card__information > .card__price {
+  opacity: 0.4;
+}
+
+.card__weight {
+  font-size: 10px;
+  color: #19647e;
+}
+.card__product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card__product img {
+  border-radius: 50%;
+  margin: auto;
+}
+.card__img {
+  border-radius: 50%;
+  margin: auto;
+}
+
+.card__name {
+  margin-left: 4px;
+}

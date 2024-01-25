@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewLight-Reg.eot');
+  src: local('Futura New Light Reg'), local('FuturaNewLight-Reg'),
+      url('../fonts/FuturaNewLight-Reg.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaNewLight-Reg.woff2') format('woff2'),
+      url('../fonts/FuturaNewLight-Reg.woff') format('woff'),
+      url('../fonts/FuturaNewLight-Reg.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewBold-Reg.eot');
+  src: local('Futura New Bold Reg'), local('FuturaNewBold-Reg'),
+      url('../fonts/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaNewBold-Reg.woff2') format('woff2'),
+      url('../fonts/FuturaNewBold-Reg.woff') format('woff'),
+      url('../fonts/FuturaNewBold-Reg.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewBook-Reg.eot');
+  src: local('Futura New Book Reg'), local('FuturaNewBook-Reg'),
+      url('../fonts/FuturaNewBook-Reg.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaNewBook-Reg.woff2') format('woff2'),
+      url('../fonts/FuturaNewBook-Reg.woff') format('woff'),
+      url('../fonts/FuturaNewBook-Reg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

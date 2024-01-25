@@ -1,0 +1,99 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 20;
+  border-bottom: 1px solid #60d6a9;
+    -webkit-box-shadow: 0px 5px 10px 2px rgb(174 232 191 / 20%);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(174, 232, 191, 0.2);
+    box-shadow: 0px 5px 10px 2px rgb(174 232 191 / 20%);
+}
+.header-container {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  margin: 8px auto;
+}
+
+.corner__title {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f271b;
+  margin-bottom: 3px;
+  position: relative;
+}
+
+.corner-name {
+  font-family: 'Futura New';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1;
+  color: #1f271b;
+}
+.icon-login {
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+}
+.orders__tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.buttons__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.tabs-button {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 6px 6px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 207px;
+  margin-right: 16px;
+}
+.button--active {
+  background-color: #f5f9fe;
+}
+.tabs-button__text {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.button--active .tabs-button__text {
+  font-weight: bold;
+}
+
+.tabs-button__text--inactive {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #97a091;
+}
+
+.tabs-button__counter {
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffffff;
+  background-color: #039be5;
+  padding: 0px 6px;
+  border-radius: 24px;
+}

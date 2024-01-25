@@ -1,0 +1,44 @@
+.complete {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 19;
+  width: 100%;
+  overflow: scroll;
+  background: linear-gradient(270.17deg, #006A97 -4.85%, #D4FF9D 118.36%), linear-gradient(180.09deg, #006A97 9.65%, #D4FF9D 125.55%), #121515;
+  
+  border-top: 1px solid #e5e5e5;
+  padding: 8px 0;
+}
+.complete-orders {
+  display: flex;
+  flex-direction: row;
+  
+}
+.orders__card--complete {
+  min-width: 260px;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.success__splash {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  transition: round($number: 5);
+  background-color: #00bc29;
+  z-index: 1000;
+  line-height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px; 
+}
+
+.splash {
+  align-items: bottom;
+}
